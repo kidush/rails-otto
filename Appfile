@@ -1,0 +1,14 @@
+application {
+	name = "rails-otto"
+	type = "ruby"
+
+	dependency {
+		source = "dependencies/postgresql"
+	}
+}
+
+
+customization {
+	ruby_version = "2.3.1"
+}
+
